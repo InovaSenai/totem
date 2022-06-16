@@ -89,6 +89,8 @@ pip install face_recognition
 Após a instalação das bibliotecas, podem ser que algumas outras bibliotecas auxiliares sejam necessárias mais na frente.
 
 - TensorFlow
+
+
 Caso apareça algum erro com esse comando você poderá resolver:
 
 
@@ -100,6 +102,8 @@ Caso queira entender melhor o erro:
 https://exerror.com/typeerror-descriptors-cannot-not-be-created-directly/
 
 - Dlib
+
+
 Para erros com o delib nos podemos resolver apenas com sua instalação:
 
 

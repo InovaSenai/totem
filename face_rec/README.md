@@ -4,25 +4,32 @@ Para que funcione o reconhecimento facia, vamos precisar de algumas bibliotecas 
 
 ## Para iniciar
 - Vamos precisar do Pip
-- 
+
+
 No linux: 
 ```
 sudo apt-get install pip
 ```
 
 - Agora vamos instalar o OpenCv
+
+
 No linux: 
 ```
 pip install opencv-python
 ```
 
 - Instalamos o Bazel 
+
+
 No linux:
 ```
 npm install @bazel/bazelisk
 
 ```
 Caso ocorra algum problema com esse comando, você precisa instalar o gerenciador npm do nodeJS. Você pode utilizar o comando:
+
+
 No linux:
 ```
 sudo apt install nodejs
@@ -34,6 +41,8 @@ Agora pode testar novamente.
 git clone https://github.com/google/mediapipe.git
 ```
 Caso esse comando retorne algum erro, você precisará instalar o git. Para isso utilize o comando: 
+
+
 No linux
 ```
 sudo apt-get install git
@@ -45,6 +54,8 @@ Agora teste novamente o comando.
 cd mediapipe
 ```
 E instalamos as seguintes dependências: 
+
+
 No linux: 
 ```
 sudo apt-get install -y \
@@ -57,12 +68,16 @@ sudo apt-get install -y \
 ```
 
 - Agora instalamos o Mediapipe:
+
+
 No linux:
 ```
 pip install mediapipe
 ```
 
 - Por útimmo vamos precisar instalar o reconhecimento facial:
+
+
 No linux:
 ```
 pip install face_recognition
@@ -75,6 +90,8 @@ Após a instalação das bibliotecas, podem ser que algumas outras bibliotecas a
 
 - TensorFlow
 Caso apareça algum erro com esse comando você poderá resolver:
+
+
 No linux:
 ```
 pip install tensorflow==2.9.1\
@@ -84,6 +101,8 @@ https://exerror.com/typeerror-descriptors-cannot-not-be-created-directly/
 
 - Dlib
 Para erros com o delib nos podemos resolver apenas com sua instalação:
+
+
 No linux:
 ```
 sudo apt-get update

@@ -25,7 +25,6 @@ pip install opencv-python
 No linux:
 ```
 npm install @bazel/bazelisk
-
 ```
 Caso ocorra algum problema com esse comando, você precisa instalar o gerenciador npm do nodeJS. Você pode utilizar o comando:
 
